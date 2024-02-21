@@ -14,5 +14,5 @@ export const urlForImage = (source: Image) => {
     return undefined
   }
 
-  return imageBuilder?.image(source).auto('format')
+  return imageBuilder?.image(source).auto('format').url()
 }
