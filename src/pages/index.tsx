@@ -28,8 +28,7 @@ export default function IndexPage({ home }) {
   return (
     <Container>
       <div>
-     <h1 className="text-3xl font-bold underline">
-{title}</h1>
+        <h1 className="text-3xl font-bold underline">{title}</h1>
         <p>{excerpt}</p>
         <img src={urlForImage(mainImage)} alt="img" />
       </div>
